@@ -1,0 +1,10 @@
+.element__blur {
+  position: absolute;
+  right: 27px;
+  bottom: 27px;
+  background: rgba(115, 105, 99, 0.5);
+  filter: blur(27.1828px);
+  width: 137.88px;
+  height: 137.88px;
+  opacity: 0.5;
+}

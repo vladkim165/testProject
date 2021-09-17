@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="pages/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Путешествия по России</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="images/Logo.svg" alt="Логотип">
+      <nav class="header__menu">
+        <a class="header__menu-point">Меню</a>
+        <a class="header__menu-point">О нас</a>
+        <a class="header__menu-point">Контакты</a>
+        <div class="info">
+          <img class="info__image" src="images/telephone.svg" alt="Телефон">
+          <div class="info__text-container">
+            <h4 class="info__header">+7 (918) 432-65-87</h4>
+            <p class="info__description">Ежедневно с 9:00 до 23:00</p>
+          </div>
+        </div>
+        <div class="info">
+          <img class="info__image" src="images/Cart.svg">
+          <div class="info__text-container">
+            <h4 class="info__header info__order-header">Ваш заказ</h4>
+            <p class="info__description">Итальянская и ещё 2 пиццы</p>
+          </div>
+        </div>
+        <a class="header__lang-link">En</a>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="lead">
+        <div class="lead__choice-container">
+          <h1 class="lead__title">Пицца на заказ</h1>
+          <p class="lead__subtitle">Бесплатная и быстрая доставка за час в любое удобное для вас время</p>
+          <button class="lead__choice-button" type="button">Выбрать пиццу</button>
+        </div>
+        <div class="lead__images-container">
+          <img class="lead__table-image" src="images/table.png">
+          <img class="lead__pizza-image" src="images/pizza.png">
+          <img class="lead__leaves-image" src="images/leaves.png">
+          <div class="lead__blur"></div>
+        </div>
+      </section>
+      <section class="promo">
+        <div class="promo-card">
+          <img class="promo-card__image" src="images/pizzas-image.jpg">
+          <h4 class="promo-card__title">Закажи 2 пиццы – 3-я в подарок</h4>
+          <p class="promo-card__description">При заказе 2-х больших пицц – средняя пицца в подарок</p>
+        </div>
+        <div class="promo-card">
+          <img class="promo-card__image" src="images/soda.jpg">
+          <h4 class="promo-card__title">Напиток в подарок</h4>
+          <p class="promo-card__description">Скидка на заказ от 3 000 рублей + напиток в подарок</p>
+        </div>
+        <div class="promo-card">
+          <img class="promo-card__image" src="images/eating-people.jpg">
+          <h4 class="promo-card__title">25% при первом заказе</h4>
+          <p class="promo-card__description">Скидка новым клиентам!</p>
+        </div>
+      </section>
+      <section class="card-grid">
+        <h2 class="card-grid__title">Выберите пиццу</h2>
+        <div class="card-grid__sort-panel">
+          <button class="card-grid__sort-button" type="button">Все</button>
+          <button class="card-grid__sort-button" type="button">Острые</button>
+          <button class="card-grid__sort-button" type="button">Мясные</button>
+          <button class="card-grid__sort-button" type="button">Сырные</button>
+          <button class="card-grid__sort-button" type="button">Веганские</button>
+        </div>
+        <ul class="elements-list">
+        </ul>
+      </section>
+      <section class="delivery-info">
+        <h2 class="delivery-info__title">Доставка и оплата</h2>
+        <div class="promo">
+          <div class="promo-card promo-card_size_s">
+            <img class="promo-card__image promo-card__image_size_s" src="images/icon-order.svg">
+            <div class="promo-card__text-container">
+              <h4 class="promo-card__title promo-card__title_size_s">Заказ</h4>
+              <p class="promo-card__description promo-card__description_size_s">После оформления заказа мы свяжемся с
+                вами для уточнения деталей.</p>
+            </div>
+          </div>
+          <div class="promo-card promo-card_size_s">
+            <img class="promo-card__image promo-card__image_size_s" src="images/icon-delivery.svg">
+            <div class="promo-card__text-container">
+              <h4 class="promo-card__title promo-card__title_size_s">Доставка курьером</h4>
+              <p class="promo-card__description promo-card__description_size_s">Мы доставим вашу пиццу горячей.
+                Бесплатная доставка по городу.</p>
+            </div>
+          </div>
+          <div class="promo-card promo-card_size_s">
+            <img class="promo-card__image promo-card__image_size_s" src="images/icon-pay.svg">
+            <div class="promo-card__text-container">
+              <h4 class="promo-card__title promo-card__title_size_s">Оплата</h4>
+              <p class="promo-card__description promo-card__description_size_s">Оплатить можно наличными или картой
+                курьеру. И золотом тоже можно.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="company-description">
+
+      </section>
+      <section class="instagram-profile">
+
+      </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+  </div>
+  <template class="card-template">
+    <li class="element">
+      <div class="element__background">
+        <div class="element__blur"></div>
+        <img class="element__image" src="images/size_s.png">
+      </div>
+      <h4 class="element__title">Овощная</h4>
+      <p class="element__description">Тесто со шпинатом, молодой сыр и колбаски, много колбасок</p>
+      <p class="element__size">Размер, см:</p>
+      <div class="element__button-panel">
+        <button class="element__size-button" type="button">20</button>
+        <button class="element__size-button" type="button">30</button>
+        <button class="element__size-button" type="button">40</button>
+      </div>
+      <h4 class="element__price">от 699 руб.</h4>
+      <button class="element__order-button" type="button">Заказать</button>
+    </li>
+  </template>
+  <script src="script.js"></script>
+</body>
+
+</html>

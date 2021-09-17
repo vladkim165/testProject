@@ -1,0 +1,15 @@
+.element__background {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 43px 0 0 0;
+  background: url(../../../images/Size.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

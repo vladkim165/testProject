@@ -1,0 +1,7 @@
+.lead__images-container {
+  position: relative;
+  right: 0%;
+  border: 1px solid red;
+  top: 0;
+  grid-area: picture;
+}

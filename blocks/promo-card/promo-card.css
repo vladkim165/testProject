@@ -1,0 +1,6 @@
+.promo-card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 5px;
+}

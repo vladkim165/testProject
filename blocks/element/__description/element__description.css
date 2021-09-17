@@ -1,0 +1,9 @@
+.element__description {
+  font-family: 'Roboto', serif;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #848A9A;
+  max-width: 264px;
+  margin: 0 0 8px 0;
+}

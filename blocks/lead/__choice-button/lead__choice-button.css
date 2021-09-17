@@ -1,0 +1,13 @@
+.lead__choice-button {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background-color: #E52D2D;
+  width: 304px;
+  height: 60px;
+  border-radius: 5px;
+  margin-bottom: 277px;
+}

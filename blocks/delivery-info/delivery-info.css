@@ -1,0 +1,8 @@
+.delivery-info {
+  display: flex;
+  flex-direction: column;
+  background: #F8F6F3;
+  margin: 100px 0 100px 0;
+  width: 100%;
+  padding-bottom: 80px;
+}

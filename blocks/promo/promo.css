@@ -1,0 +1,9 @@
+.promo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
+  column-gap: 32px;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}

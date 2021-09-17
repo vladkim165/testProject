@@ -1,0 +1,9 @@
+.element__button-panel {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #EFF0F1;
+  height: 32px;
+  margin-bottom: 14px;
+}

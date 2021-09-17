@@ -1,0 +1,10 @@
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 110px auto 0 auto;
+  border: 1px solid red;
+}

@@ -1,0 +1,8 @@
+.lead__choice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  grid-area: text;
+  padding-top: 157px;
+}

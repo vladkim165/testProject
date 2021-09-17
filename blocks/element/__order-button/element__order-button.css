@@ -1,0 +1,34 @@
+.element__order-button {
+  background: #E52D2D;
+  border-radius: 5px;
+  width: 240px;
+  height: 52px;
+  border: none;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.element__order-button:hover {
+  background: #FF3C3C;
+}
+
+.element__order-button:focus {
+  border: none;
+  background: #E52D2D;
+  border: 3px solid #8FC9FF;
+}
+
+.element__order-button:active {
+  background: #BF221E;
+}
+
+.element__order-button:disabled {
+  background: #DBDBDB;
+  color: #DBDBDB;
+}

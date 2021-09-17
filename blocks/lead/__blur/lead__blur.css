@@ -1,0 +1,10 @@
+.lead__blur {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  background: #000000;
+  filter: blur(107.981px);
+  left: 170px;
+  top: 60px;
+  opacity: 0.5;
+}

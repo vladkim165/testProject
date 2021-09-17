@@ -1,0 +1,14 @@
+.header__menu-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header__menu-point:last-of-type {
+  margin-right: 88px
+}

@@ -1,0 +1,7 @@
+.lead__table-image {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  clip-path: polygon(13% 0, 100% 0%, 100% 100%, 0% 100%);
+  transform: translateX(3%)
+}
