@@ -3,7 +3,7 @@
   width: 200px;
   height: 200px;
   border: 1px solid red;
-  margin: 43px 0 0 0;
+  margin: 0;
   background: url(../../../images/Size.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,4 +12,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 834px) {
+  .element__background {
+    width: 183px;
+    height: 183px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .element__background {
+    width: 83px;
+    height: 83px;
+  }
 }

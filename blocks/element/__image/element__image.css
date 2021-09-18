@@ -2,4 +2,21 @@
   margin: 5px 0 0 10px;
   z-index: 2;
   position: relative;
+  width: 155px;
+  height: 155px;
+}
+
+@media screen and (max-width: 834px) {
+  .element__image {
+    width: 143px;
+    height: 143px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .element__image {
+    width: 65px;
+    height: 65px;
+    margin: 2px 0 0 2px;
+  }
 }

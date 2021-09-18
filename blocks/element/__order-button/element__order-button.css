@@ -4,14 +4,10 @@
   width: 240px;
   height: 52px;
   border: none;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   color: #FFFFFF;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-bottom: 40px;
 }
 
 .element__order-button:hover {
@@ -31,4 +27,19 @@
 .element__order-button:disabled {
   background: #DBDBDB;
   color: #DBDBDB;
+}
+
+@media screen and (max-width: 834px) {
+  .element__order-button {
+    width: 196px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .element__order-button {
+    width: 120px;
+    height: 28px;
+    margin-bottom: 24px;
+  }
 }

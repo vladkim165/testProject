@@ -1,0 +1,9 @@
+.delivery-info__card-title {
+  margin: 0 0 6px 0;
+}
+
+@media screen and (max-width: 834px) {
+  .delivery-info__card-title {
+    margin: 0 0 4px 0;
+  }
+}

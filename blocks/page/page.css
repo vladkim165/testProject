@@ -6,7 +6,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   margin: 0 auto;
-  min-height: 100vh;
   font-family: "Alegreya", serif;
   overflow: hidden;
 }

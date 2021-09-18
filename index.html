@@ -13,21 +13,21 @@
     <header class="header">
       <img class="header__logo" src="images/Logo.svg" alt="Логотип">
       <nav class="header__menu">
-        <a class="header__menu-point">Меню</a>
-        <a class="header__menu-point">О нас</a>
-        <a class="header__menu-point">Контакты</a>
+        <a class="section-text section-text_accent header__menu-point">Меню</a>
+        <a class="section-text section-text_accent header__menu-point">О нас</a>
+        <a class="section-text section-text_accent header__menu-point">Контакты</a>
         <div class="info">
           <img class="info__image" src="images/telephone.svg" alt="Телефон">
           <div class="info__text-container">
             <h4 class="info__header">+7 (918) 432-65-87</h4>
-            <p class="info__description">Ежедневно с 9:00 до 23:00</p>
+            <p class="section-text section-text_size_s info__description">Ежедневно с 9:00 до 23:00</p>
           </div>
         </div>
         <div class="info">
           <img class="info__image" src="images/Cart.svg">
           <div class="info__text-container">
-            <h4 class="info__header info__order-header">Ваш заказ</h4>
-            <p class="info__description">Итальянская и ещё 2 пиццы</p>
+            <h4 class="section-text section-text_accent info__header info__order-header">Ваш заказ</h4>
+            <p class="section-text section-text_size_s info__description">Итальянская и ещё 2 пиццы</p>
           </div>
         </div>
         <a class="header__lang-link">En</a>
@@ -36,9 +36,10 @@
     <main class="content">
       <section class="lead">
         <div class="lead__choice-container">
-          <h1 class="lead__title">Пицца на заказ</h1>
-          <p class="lead__subtitle">Бесплатная и быстрая доставка за час в любое удобное для вас время</p>
-          <button class="lead__choice-button" type="button">Выбрать пиццу</button>
+          <h1 class="section-title lead__title">Пицца на заказ</h1>
+          <p class="section-text section-text_size_l lead__subtitle">Бесплатная и быстрая доставка за час в любое
+            удобное для вас время</p>
+          <button class="section-text section-text_accent lead__choice-button" type="button">Выбрать пиццу</button>
         </div>
         <div class="lead__images-container">
           <img class="lead__table-image" src="images/table.png">
@@ -50,70 +51,140 @@
       <section class="promo">
         <div class="promo-card">
           <img class="promo-card__image" src="images/pizzas-image.jpg">
-          <h4 class="promo-card__title">Закажи 2 пиццы – 3-я в подарок</h4>
-          <p class="promo-card__description">При заказе 2-х больших пицц – средняя пицца в подарок</p>
+          <h4 class="section-title_level_4 promo-card__title">Закажи 2 пиццы – 3-я в подарок</h4>
+          <p class="section-text">При заказе 2-х больших пицц – средняя пицца в подарок</p>
         </div>
         <div class="promo-card">
           <img class="promo-card__image" src="images/soda.jpg">
-          <h4 class="promo-card__title">Напиток в подарок</h4>
-          <p class="promo-card__description">Скидка на заказ от 3 000 рублей + напиток в подарок</p>
+          <h4 class="section-title_level_4 promo-card__title">Напиток в подарок</h4>
+          <p class="section-text">Скидка на заказ от 3 000 рублей + напиток в подарок</p>
         </div>
         <div class="promo-card">
           <img class="promo-card__image" src="images/eating-people.jpg">
-          <h4 class="promo-card__title">25% при первом заказе</h4>
-          <p class="promo-card__description">Скидка новым клиентам!</p>
+          <h4 class="section-title_level_4 promo-card__title">25% при первом заказе</h4>
+          <p class="section-text">Скидка новым клиентам!</p>
         </div>
       </section>
       <section class="card-grid">
-        <h2 class="card-grid__title">Выберите пиццу</h2>
+        <h2 class="section-title section-title_level_2 card-grid__title">Выберите пиццу</h2>
         <div class="card-grid__sort-panel">
-          <button class="card-grid__sort-button" type="button">Все</button>
-          <button class="card-grid__sort-button" type="button">Острые</button>
-          <button class="card-grid__sort-button" type="button">Мясные</button>
-          <button class="card-grid__sort-button" type="button">Сырные</button>
-          <button class="card-grid__sort-button" type="button">Веганские</button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button">Все</button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button">Острые</button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button">Мясные</button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button">Сырные</button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button">Веганские</button>
         </div>
         <ul class="elements-list">
         </ul>
       </section>
       <section class="delivery-info">
-        <h2 class="delivery-info__title">Доставка и оплата</h2>
+        <h2 class="section-title section-title_level_2 delivery-info__title">Доставка и оплата</h2>
         <div class="promo">
-          <div class="promo-card promo-card_size_s">
-            <img class="promo-card__image promo-card__image_size_s" src="images/icon-order.svg">
+          <div class="promo-card delivery-info__card">
+            <img class="promo-card__image delivery-info__card-image" src="images/icon-order.svg">
             <div class="promo-card__text-container">
-              <h4 class="promo-card__title promo-card__title_size_s">Заказ</h4>
-              <p class="promo-card__description promo-card__description_size_s">После оформления заказа мы свяжемся с
+              <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Заказ</h4>
+              <p class="section-text section-text_size_s delivery-info__card-text">После оформления заказа мы свяжемся с
                 вами для уточнения деталей.</p>
             </div>
           </div>
-          <div class="promo-card promo-card_size_s">
-            <img class="promo-card__image promo-card__image_size_s" src="images/icon-delivery.svg">
+          <div class="promo-card delivery-info__card">
+            <img class="promo-card__image delivery-info__card-image" src="images/icon-delivery.svg">
             <div class="promo-card__text-container">
-              <h4 class="promo-card__title promo-card__title_size_s">Доставка курьером</h4>
-              <p class="promo-card__description promo-card__description_size_s">Мы доставим вашу пиццу горячей.
+              <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Доставка
+                курьером</h4>
+              <p class="section-text section-text_size_s delivery-info__card-text">Мы доставим вашу пиццу горячей.
                 Бесплатная доставка по городу.</p>
             </div>
           </div>
-          <div class="promo-card promo-card_size_s">
-            <img class="promo-card__image promo-card__image_size_s" src="images/icon-pay.svg">
+          <div class="promo-card delivery-info__card">
+            <img class="promo-card__image delivery-info__card-image" src="images/icon-pay.svg">
             <div class="promo-card__text-container">
-              <h4 class="promo-card__title promo-card__title_size_s">Оплата</h4>
-              <p class="promo-card__description promo-card__description_size_s">Оплатить можно наличными или картой
+              <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Оплата</h4>
+              <p class="section-text section-text_size_s delivery-info__card-text">Оплатить можно наличными или картой
                 курьеру. И золотом тоже можно.</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="company-description">
-
+      <section class="company-info">
+        <ul class="company-info__list">
+          <li class="list-item">
+            <img class="list-item__image" src="images/pizza-cooking.jpg" alt="Приготовление пиццы">
+            <div class="list-item__text-container">
+              <h4 class="section-title section-title_level_3 list-item__title">Изготавливаем пиццу по своим рецептам в
+                лучших традициях</h4>
+              <p class="section-text">Наша пицца получается сочной, вкусной и главное хрустящей с
+                нежной и
+                аппетитной начинкой, готовим по своим итальянским рецептам</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img class="list-item__image" src="images/pizza-preview.jpg" alt="Готовая пицца">
+            <div class="list-item__text-container">
+              <h4 class="section-title section-title_level_3 list-item__title">Используем только свежие ингридиенты</h4>
+              <p class="section-text">Ежедневно заготавливаем продукты и овощи для наших пицц,
+                соблюдаем все
+                сроки хранения</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img class="list-item__image" src="images/delivery-employee.jpg" alt="Сотрудник доставки">
+            <div class="list-item__text-container">
+              <h4 class="section-title section-title_level_3 list-item__title">Доставка в течение 60 минут или заказ за
+                нас счёт</h4>
+              <p class="section-text">Все наши курьеры – фанаты серии Need for Speed и призеры
+                гонок World
+                Rally Championship и World Superbike во всех категориях</p>
+            </div>
+          </li>
+        </ul>
       </section>
       <section class="instagram-profile">
-
+        <h2 class="section-title section-title_level_2 instagram-profile__title">Следите за нами в Instagram</h2>
+        <h4 class="section-title section-title_level_4 instagram-profile__link">@pizzamenu</h4>
+        <ul class="instagram-profile__photo-grid">
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst01.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst02.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst03.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst04.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst05.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst06.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst07.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst08.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst09.jpg">
+          </li>
+          <li class="instagram-profile__photo-container">
+            <img class="instagram-profile__photo" src="images/inst10.jpg">
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
-
+      <div class="info footer__info">
+        <div class="info__text-container">
+          <h4 class="info__header">+7 (918) 432-65-87</h4>
+          <p class="section-text section-text_size_s info__description">Ежедневно с 9:00 до 23:00</p>
+        </div>
+        <p class="section-text section-text_size_s info__description">Политика конфиденциальности</p>
+      </div>
     </footer>
   </div>
   <template class="card-template">
@@ -122,16 +193,20 @@
         <div class="element__blur"></div>
         <img class="element__image" src="images/size_s.png">
       </div>
-      <h4 class="element__title">Овощная</h4>
-      <p class="element__description">Тесто со шпинатом, молодой сыр и колбаски, много колбасок</p>
-      <p class="element__size">Размер, см:</p>
-      <div class="element__button-panel">
-        <button class="element__size-button" type="button">20</button>
-        <button class="element__size-button" type="button">30</button>
-        <button class="element__size-button" type="button">40</button>
+      <div class="element__container">
+        <h4 class="section-title section-title_level_4 element__title">Овощная</h4>
+        <p class="section-text section-text_size_s element__description">Тесто со шпинатом, молодой сыр и колбаски,
+          много
+          колбасок</p>
+        <p class="section-text section-text_size_s element__size">Размер, см:</p>
+        <div class="element__button-panel">
+          <button class="section-text section-text_size_s element__size-button" type="button">20</button>
+          <button class="section-text section-text_size_s element__size-button" type="button">30</button>
+          <button class="section-text section-text_size_s element__size-button" type="button">40</button>
+        </div>
+        <h4 class="section-title section-title_level_4 element__price">от 699 руб.</h4>
+        <button class="section-text section-text_accent element__order-button" type="button">Заказать</button>
       </div>
-      <h4 class="element__price">от 699 руб.</h4>
-      <button class="element__order-button" type="button">Заказать</button>
     </li>
   </template>
   <script src="script.js"></script>

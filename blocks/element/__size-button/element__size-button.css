@@ -1,12 +1,10 @@
 .element__size-button {
-  font-family: 'Roboto', serif;
   font-weight: bold;
-  font-size: 12px;
-  line-height: 1.5;
   width: 58px;
   height: 28px;
   border: none;
   border-radius: 2px;
   background: #EFF0F1;
   cursor: pointer;
+  text-align: center;
 }

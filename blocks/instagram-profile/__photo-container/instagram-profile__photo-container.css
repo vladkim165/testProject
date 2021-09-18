@@ -1,0 +1,28 @@
+.instagram-profile__photo-container {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1899px) {
+  .instagram-profile__photo-container:nth-of-type(-n+2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1519px) {
+  .instagram-profile__photo-container:nth-of-type(-n+4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .instagram-profile__photo-container:nth-of-type(-n+4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .instagram-profile__photo-container:nth-of-type(-n+6) {
+    display: none;
+  }
+}

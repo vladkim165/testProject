@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 'text picture';
-  min-width: 320px;
+  min-width: 280px;
   width: 100%;
   max-width: 1320px;
   margin: 0 auto;

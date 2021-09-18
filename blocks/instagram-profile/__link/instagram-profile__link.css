@@ -1,0 +1,10 @@
+.instagram-profile__link {
+  color: #848A9A;
+  margin: 0 0 46px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .instagram-profile__link {
+    margin: 0 0 20px 0;
+  }
+}

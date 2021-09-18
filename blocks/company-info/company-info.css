@@ -1,0 +1,29 @@
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 95px auto 110px auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .company-info {
+    margin: 80px auto;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .company-info {
+    margin: 40px auto 70px auto;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .company-info {
+    margin: 20px auto 60px auto;
+  }
+}

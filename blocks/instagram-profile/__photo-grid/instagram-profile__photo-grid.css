@@ -1,0 +1,53 @@
+.instagram-profile__photo-grid {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  list-style-type: none;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1921px) {
+  .instagram-profile__photo-grid {
+    grid-template-columns: repeat(5, 380px);
+  }
+}
+
+@media screen and (max-width: 1899px) {
+  .instagram-profile__photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 380px));
+    grid-template-rows: repeat(auto-fit, minmax(160px, 380px));
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .instagram-profile__photo-grid {
+    grid-template-columns: repeat(3, minmax(278px, 1fr));
+    grid-template-rows: repeat(2, minmax(278px, 1fr));
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .instagram-profile__photo-grid {
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+    grid-template-rows: repeat(2, minmax(160px, 1fr));
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .instagram-profile__photo-grid {
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+    grid-template-rows: repeat(2, minmax(160px, 1fr));
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .instagram-profile__photo-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-template-rows: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+

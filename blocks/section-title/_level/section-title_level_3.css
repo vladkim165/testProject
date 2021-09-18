@@ -1,0 +1,16 @@
+.section-title_level_3 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 834px) {
+  .section-title_level_3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section-title_level_3 {
+    font-size: 20px;
+  }
+}

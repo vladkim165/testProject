@@ -1,0 +1,13 @@
+.section-text {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .section-text {
+    font-size: 12px;
+  }
+}

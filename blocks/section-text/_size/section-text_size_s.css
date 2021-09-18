@@ -1,0 +1,11 @@
+.section-text_size_s {
+  font-size: 12px;
+  color: #848A9A;
+}
+
+@media screen and (max-width: 450px) {
+  .section-text_size_s {
+    font-size: 11px;
+    line-height: 1.55;
+  }
+}

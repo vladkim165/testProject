@@ -1,0 +1,22 @@
+.section-text_accent {
+  font-family: "Alegreya", serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (max-width: 834px) {
+  .section-text_accent {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section-text_accent {
+    line-height: 1.25;
+  }
+}

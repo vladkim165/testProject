@@ -1,0 +1,15 @@
+.section-text_size_l {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 834px) {
+  .section-text_size_l {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section-text_size_l {
+    font-size: 16px;
+  }
+}

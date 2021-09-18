@@ -6,4 +6,11 @@
   background: #EFF0F1;
   height: 32px;
   margin-bottom: 14px;
+  width: 182px;
+}
+
+@media screen and (max-width: 834px) {
+  .element__button-panel {
+    margin-bottom: 12px;
+  }
 }
