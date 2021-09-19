@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
   <link rel="stylesheet" href="pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Путешествия по России</title>
+  <title>Пицца на заказ</title>
 </head>
 
 <body>
@@ -49,30 +50,47 @@
         </div>
       </section>
       <section class="promo">
-        <div class="promo-card">
-          <img class="promo-card__image" src="images/pizzas-image.jpg">
-          <h4 class="section-title_level_4 promo-card__title">Закажи 2 пиццы – 3-я в подарок</h4>
-          <p class="section-text">При заказе 2-х больших пицц – средняя пицца в подарок</p>
+        <div class="promo__container promo__container-wrap">
+          <div class="promo-card promo-card_first">
+            <img class="promo-card__image" src="images/pizzas-image.jpg">
+            <h4 class="section-title_level_4 promo-card__title">Закажи 2 пиццы – 3-я в подарок</h4>
+            <p class="section-text">При заказе 2-х больших пицц – средняя пицца в подарок</p>
+          </div>
+          <div class="promo-card promo-card_second">
+            <img class="promo-card__image" src="images/soda.jpg">
+            <h4 class="section-title_level_4 promo-card__title">Напиток в подарок</h4>
+            <p class="section-text">Скидка на заказ от 3 000 рублей + напиток в подарок</p>
+          </div>
+          <div class="promo-card promo-card_third">
+            <img class="promo-card__image" src="images/eating-people.jpg">
+            <h4 class="section-title_level_4 promo-card__title">25% при первом заказе</h4>
+            <p class="section-text">Скидка новым клиентам!</p>
+          </div>
         </div>
-        <div class="promo-card">
-          <img class="promo-card__image" src="images/soda.jpg">
-          <h4 class="section-title_level_4 promo-card__title">Напиток в подарок</h4>
-          <p class="section-text">Скидка на заказ от 3 000 рублей + напиток в подарок</p>
-        </div>
-        <div class="promo-card">
-          <img class="promo-card__image" src="images/eating-people.jpg">
-          <h4 class="section-title_level_4 promo-card__title">25% при первом заказе</h4>
-          <p class="section-text">Скидка новым клиентам!</p>
+        <div class="promo__button-container">
+          <button class="promo__progress-button promo__progress-button_first"></button>
+          <button class="promo__progress-button promo__progress-button_second"></button>
+          <button class="promo__progress-button promo__progress-button_third"></button>
         </div>
       </section>
       <section class="card-grid">
         <h2 class="section-title section-title_level_2 card-grid__title">Выберите пиццу</h2>
         <div class="card-grid__sort-panel">
-          <button class="section-text section-text_accent card-grid__sort-button" type="button">Все</button>
-          <button class="section-text section-text_accent card-grid__sort-button" type="button">Острые</button>
-          <button class="section-text section-text_accent card-grid__sort-button" type="button">Мясные</button>
-          <button class="section-text section-text_accent card-grid__sort-button" type="button">Сырные</button>
-          <button class="section-text section-text_accent card-grid__sort-button" type="button">Веганские</button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button"><img
+              class="card-grid__sort-button-image" src="images/pizzas-all.svg"><span
+              class="card-grid__sort-button-text">Все</span></button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button"><img
+              class="card-grid__sort-button-image" src="images/pizzas-spicy.svg"><span
+              class="card-grid__sort-button-text">Острые</span></button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button"><img
+              class="card-grid__sort-button-image" src="images/pizzas-meat.svg"><span
+              class="card-grid__sort-button-text">Мясные</span></button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button"><img
+              class="card-grid__sort-button-image" src="images/pizzas-cheesy.svg"><span
+              class="card-grid__sort-button-text">Сырные</span></button>
+          <button class="section-text section-text_accent card-grid__sort-button" type="button"><img
+              class="card-grid__sort-button-image" src="images/pizzas-vegetarian.svg"><span
+              class="card-grid__sort-button-text">Веганские</span></button>
         </div>
         <ul class="elements-list">
         </ul>
@@ -80,115 +98,120 @@
       <section class="delivery-info">
         <h2 class="section-title section-title_level_2 delivery-info__title">Доставка и оплата</h2>
         <div class="promo">
-          <div class="promo-card delivery-info__card">
-            <img class="promo-card__image delivery-info__card-image" src="images/icon-order.svg">
-            <div class="promo-card__text-container">
-              <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Заказ</h4>
-              <p class="section-text section-text_size_s delivery-info__card-text">После оформления заказа мы свяжемся с
-                вами для уточнения деталей.</p>
+          <div class="promo__container">
+            <div class="promo-card delivery-info__card">
+              <img class="promo-card__image delivery-info__card-image" src="images/icon-order.svg">
+              <div class="promo-card__text-container">
+                <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Заказ</h4>
+                <p class="section-text section-text_size_s delivery-info__card-text">После оформления заказа мы свяжемся
+                  с
+                  вами для уточнения деталей.</p>
+              </div>
             </div>
-          </div>
-          <div class="promo-card delivery-info__card">
-            <img class="promo-card__image delivery-info__card-image" src="images/icon-delivery.svg">
-            <div class="promo-card__text-container">
-              <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Доставка
-                курьером</h4>
-              <p class="section-text section-text_size_s delivery-info__card-text">Мы доставим вашу пиццу горячей.
-                Бесплатная доставка по городу.</p>
+            <div class="promo-card delivery-info__card">
+              <img class="promo-card__image delivery-info__card-image" src="images/icon-delivery.svg">
+              <div class="promo-card__text-container">
+                <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Доставка
+                  курьером</h4>
+                <p class="section-text section-text_size_s delivery-info__card-text">Мы доставим вашу пиццу горячей.
+                  Бесплатная доставка по городу.</p>
+              </div>
             </div>
-          </div>
-          <div class="promo-card delivery-info__card">
-            <img class="promo-card__image delivery-info__card-image" src="images/icon-pay.svg">
-            <div class="promo-card__text-container">
-              <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Оплата</h4>
-              <p class="section-text section-text_size_s delivery-info__card-text">Оплатить можно наличными или картой
-                курьеру. И золотом тоже можно.</p>
+            <div class="promo-card delivery-info__card">
+              <img class="promo-card__image delivery-info__card-image" src="images/icon-pay.svg">
+              <div class="promo-card__text-container">
+                <h4 class="section-title section-title_level_4 promo-card__title delivery-info__card-title">Оплата</h4>
+                <p class="section-text section-text_size_s delivery-info__card-text">Оплатить можно наличными или картой
+                  курьеру. И золотом тоже можно.</p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="company-info">
-        <ul class="company-info__list">
-          <li class="list-item">
-            <img class="list-item__image" src="images/pizza-cooking.jpg" alt="Приготовление пиццы">
-            <div class="list-item__text-container">
-              <h4 class="section-title section-title_level_3 list-item__title">Изготавливаем пиццу по своим рецептам в
-                лучших традициях</h4>
-              <p class="section-text">Наша пицца получается сочной, вкусной и главное хрустящей с
-                нежной и
-                аппетитной начинкой, готовим по своим итальянским рецептам</p>
-            </div>
-          </li>
-          <li class="list-item">
-            <img class="list-item__image" src="images/pizza-preview.jpg" alt="Готовая пицца">
-            <div class="list-item__text-container">
-              <h4 class="section-title section-title_level_3 list-item__title">Используем только свежие ингридиенты</h4>
-              <p class="section-text">Ежедневно заготавливаем продукты и овощи для наших пицц,
-                соблюдаем все
-                сроки хранения</p>
-            </div>
-          </li>
-          <li class="list-item">
-            <img class="list-item__image" src="images/delivery-employee.jpg" alt="Сотрудник доставки">
-            <div class="list-item__text-container">
-              <h4 class="section-title section-title_level_3 list-item__title">Доставка в течение 60 минут или заказ за
-                нас счёт</h4>
-              <p class="section-text">Все наши курьеры – фанаты серии Need for Speed и призеры
-                гонок World
-                Rally Championship и World Superbike во всех категориях</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="instagram-profile">
-        <h2 class="section-title section-title_level_2 instagram-profile__title">Следите за нами в Instagram</h2>
-        <h4 class="section-title section-title_level_4 instagram-profile__link">@pizzamenu</h4>
-        <ul class="instagram-profile__photo-grid">
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst01.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst02.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst03.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst04.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst05.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst06.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst07.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst08.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst09.jpg">
-          </li>
-          <li class="instagram-profile__photo-container">
-            <img class="instagram-profile__photo" src="images/inst10.jpg">
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="info footer__info">
-        <div class="info__text-container">
-          <h4 class="info__header">+7 (918) 432-65-87</h4>
-          <p class="section-text section-text_size_s info__description">Ежедневно с 9:00 до 23:00</p>
+  </div>
+  </section>
+  <section class="company-info">
+    <ul class="company-info__list">
+      <li class="list-item">
+        <img class="list-item__image" src="images/pizza-cooking.jpg" alt="Приготовление пиццы">
+        <div class="list-item__text-container">
+          <h4 class="section-title section-title_level_3 list-item__title">Изготавливаем пиццу по своим рецептам в
+            лучших традициях</h4>
+          <p class="section-text">Наша пицца получается сочной, вкусной и главное хрустящей с
+            нежной и
+            аппетитной начинкой, готовим по своим итальянским рецептам</p>
         </div>
-        <p class="section-text section-text_size_s info__description">Политика конфиденциальности</p>
+      </li>
+      <li class="list-item">
+        <img class="list-item__image" src="images/pizza-preview.jpg" alt="Готовая пицца">
+        <div class="list-item__text-container">
+          <h4 class="section-title section-title_level_3 list-item__title">Используем только свежие ингридиенты</h4>
+          <p class="section-text">Ежедневно заготавливаем продукты и овощи для наших пицц,
+            соблюдаем все
+            сроки хранения</p>
+        </div>
+      </li>
+      <li class="list-item">
+        <img class="list-item__image" src="images/delivery-employee.jpg" alt="Сотрудник доставки">
+        <div class="list-item__text-container">
+          <h4 class="section-title section-title_level_3 list-item__title">Доставка в течение 60 минут или заказ за
+            нас счёт</h4>
+          <p class="section-text">Все наши курьеры – фанаты серии Need for Speed и призеры
+            гонок World
+            Rally Championship и World Superbike во всех категориях</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="instagram-profile">
+    <h2 class="section-title section-title_level_2 instagram-profile__title">Следите за нами в Instagram</h2>
+    <h4 class="section-title section-title_level_4 instagram-profile__link">@pizzamenu</h4>
+    <ul class="instagram-profile__photo-grid">
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst01.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst02.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst03.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst04.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst05.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst06.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst07.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst08.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst09.jpg">
+      </li>
+      <li class="instagram-profile__photo-container">
+        <img class="instagram-profile__photo" src="images/inst10.jpg">
+      </li>
+    </ul>
+  </section>
+  </main>
+  <footer class="footer">
+    <div class="info footer__info">
+      <div class="info__text-container">
+        <h4 class="info__header">+7 (918) 432-65-87</h4>
+        <p class="section-text section-text_size_s info__description">Ежедневно с 9:00 до 23:00</p>
       </div>
-    </footer>
+      <p class="section-text section-text_size_s info__description">Политика конфиденциальности</p>
+    </div>
+  </footer>
   </div>
   <template class="card-template">
     <li class="element">
+      <img class="element__type-image" src="images/pizzas-cheesy.svg">
       <div class="element__background">
         <div class="element__blur"></div>
         <img class="element__image" src="images/size_s.png">

@@ -38,8 +38,12 @@
 
 @media screen and (max-width: 450px) {
   .element__order-button {
-    width: 120px;
+    width: 128px;
     height: 28px;
     margin-bottom: 24px;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
   }
 }

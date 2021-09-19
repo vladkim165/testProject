@@ -1,5 +1,5 @@
 .element {
-  max-width: 304px;
+  width: 304px;
   max-height: 540px;
   background: #FFFFFF;
   box-shadow: 0px 2px 5px rgba(165, 169, 176, 0.3);
@@ -8,11 +8,13 @@
   flex-direction: column;
   align-items: center;
   padding-top: 43px;
+  position: relative;
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1024px) {
   .element {
     padding-top: 18px;
+    width: 236px;
   }
 }
 

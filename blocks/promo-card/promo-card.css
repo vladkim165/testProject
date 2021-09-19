@@ -3,4 +3,27 @@
   flex-direction: column;
   background: #FFFFFF;
   border-radius: 5px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 610px) {
+  .promo-card {
+    width: 100%;
+    max-height: 70vw;
+    flex: 0;
+  }
+}
+
+
+.promo-card_first{
+  flex: 0
+}
+
+.promo-card_second{
+  flex: 1
+}
+
+.promo-card_third{
+  flex: 0
 }

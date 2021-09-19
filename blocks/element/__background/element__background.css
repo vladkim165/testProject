@@ -2,10 +2,10 @@
   position: relative;
   width: 200px;
   height: 200px;
-  border: 1px solid red;
   margin: 0;
   background: url(../../../images/Size.png);
-  background-size: cover;
+  background-size: contain;
+  border: 1px solid red;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 450px) {
   .element__background {
-    width: 83px;
-    height: 83px;
+    width: 105px;
+    height: 105px;
   }
 }

@@ -1,0 +1,10 @@
+.promo__button-container {
+  margin-top: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 610px) {
+  .promo__button-container {
+    display: flex;
+  }
+}

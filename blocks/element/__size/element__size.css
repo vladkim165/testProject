@@ -3,3 +3,9 @@
   text-align: center;
   color: #000000;
 }
+
+@media screen and (max-width: 450px) {
+  .element__size {
+    font-size: 12px;
+  }
+}

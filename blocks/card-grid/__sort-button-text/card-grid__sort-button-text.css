@@ -1,0 +1,9 @@
+.card-grid__sort-button-text {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .card-grid__sort-button-text {
+    display: none;
+  }
+}

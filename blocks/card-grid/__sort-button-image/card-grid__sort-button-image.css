@@ -1,0 +1,25 @@
+.card-grid__sort-button-image {
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s opacity 0.3s linear;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  -webkit-box-align:center;
+  -webkit-box-pack:center;
+  display:-webkit-box;
+}
+
+.card-grid__sort-button:hover .card-grid__sort-button-image {
+  transition: 0.3s;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-4px);
+}
+
+@media screen and (max-width: 600px) {
+  .card-grid__sort-button-image {
+    visibility: visible;
+    opacity: 1;
+  }
+}
