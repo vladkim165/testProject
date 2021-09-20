@@ -1,6 +1,6 @@
 .lead__table-image {
   position: absolute;
-  left: 10px;
+  left: 40px;
   top: 40px;
   clip-path: polygon(13% 0, 100% 0%, 100% 100%, 0% 100%);
   width: 944px;
