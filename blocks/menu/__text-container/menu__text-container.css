@@ -1,6 +1,6 @@
-.list-item__text-container {
+.menu__text-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }

@@ -1,0 +1,16 @@
+.menu__lang-link {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width: 568px) {
+  .menu__lang-link {
+    margin-top: 40px;
+    display: flex;
+  }
+}

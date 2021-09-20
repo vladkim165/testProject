@@ -5,6 +5,13 @@
   height: 60px;
   border-radius: 5px;
   margin-bottom: 277px;
+  border: none;
+  transition: 0.3s linear;
+}
+
+.lead__choice-button:hover {
+  background: #FF3C3C;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1600px) {

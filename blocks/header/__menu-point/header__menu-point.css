@@ -16,7 +16,7 @@
   color: #FF3C3C;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 834px) {
   .header__menu-point {
     display: none;
   }

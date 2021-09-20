@@ -1,0 +1,22 @@
+.menu__text-point {
+  font-family: 'Roboto', serif;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #A8B0BC;
+}
+
+.menu__text-point:nth-of-type(1) {
+  text-transform: uppercase;
+}
+
+.menu__text-point:nth-of-type(2) {
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.33333px;
+  text-transform: uppercase;
+  color: #FFFFFF
+}

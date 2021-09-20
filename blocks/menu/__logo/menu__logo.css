@@ -1,0 +1,14 @@
+.menu__logo {
+  display: none;
+}
+
+@media screen and (max-width: 568px) {
+  .menu__logo {
+    display: flex;
+    position: absolute;
+    width: 85px;
+    height: 39px;
+    top: 12px;
+    left: 16px;
+  }
+}

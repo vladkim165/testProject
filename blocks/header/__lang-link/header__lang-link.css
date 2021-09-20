@@ -21,7 +21,7 @@
   color: #FF3C3C;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 834px) {
   .header__lang-link {
     margin: 0 40px 0 70px;
   }

@@ -5,7 +5,6 @@
   margin: 0;
   background: url(../../../images/Size.png);
   background-size: contain;
-  border: 1px solid red;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;

@@ -11,6 +11,7 @@
 @import url(../blocks/section-text/section-text_accent.css);
 @import url(../blocks/section-text/_size/section-text_size_l.css);
 @import url(../blocks/section-text/_size/section-text_size_s.css);
+@import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -39,6 +40,7 @@
 @import url(../blocks/promo-card/promo-card.css);
 @import url(../blocks/promo/__button-container/promo__button-container.css);
 @import url(../blocks/promo/__progress-button/promo__progress-button.css);
+@import url(../blocks/promo/__progress-button/_active/promo__progress-button_active.css);
 @import url(../blocks/promo-card/__image/promo-card__image.css);
 @import url(../blocks/promo-card/__title/promo-card__title.css);
 @import url(../blocks/card-grid/card-grid.css);
@@ -82,3 +84,12 @@
 @import url(../blocks/instagram-profile/__photo/instagram-profile__photo.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_active/menu_active.css);
+@import url(../blocks/menu/__close-button/menu__close-button.css);
+@import url(../blocks/menu/__logo/menu__logo.css);
+@import url(../blocks/menu/__bar/menu__bar.css);
+@import url(../blocks/menu/__point/menu__point.css);
+@import url(../blocks/menu/__text-container/menu__text-container.css);
+@import url(../blocks/menu/__lang-link/menu__lang-link.css);
+@import url(../blocks/menu/__text-point/menu__text-point.css);

@@ -6,8 +6,3 @@
   letter-spacing: 1px;
   transition: 0.3s linear;
 }
-
-.info__order-header:hover {
-  cursor: pointer;
-  color: #FF3C3C;
-}

@@ -5,14 +5,14 @@
   min-width: 280px;
   width: 100%;
   max-width: 1320px;
-  margin: 0 auto;
-  border: 1px solid red;
+  margin: 0 auto 0 auto;
   box-sizing: border-box;
+  padding-top: 176px;
 }
 
 @media screen and (max-width: 1320px) {
   .lead {
-    padding: 0 32px 0 32px;
+    padding: 193px 32px 0 32px;
   }
 }
 
@@ -20,5 +20,18 @@
   .lead {
     display: flex;
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lead {
+    padding-top: 120px;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .lead {
+    padding-top: 100px;
   }
 }

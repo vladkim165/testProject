@@ -1,0 +1,6 @@
+.menu__bar {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 170px;
+  width: 62.5%;
+}

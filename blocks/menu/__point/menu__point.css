@@ -1,0 +1,16 @@
+.menu__point {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #1D2228;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__point:last-of-type {
+  border: none;
+}

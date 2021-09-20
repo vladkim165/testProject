@@ -1,7 +1,6 @@
 .lead__images-container {
   position: relative;
   right: 0%;
-  border: 1px solid purple;
   top: 0;
   grid-area: picture;
 }
@@ -19,8 +18,3 @@
   }
 }
 
-@media screen and (max-width: 370px) {
-  .lead__images-container {
-    height: 150px;
-  }
-}

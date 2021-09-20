@@ -41,12 +41,13 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 736px) {
   .lead__blur {
-    top: 20px;
-    left: 260px;
+    top: 10px;
+    left: 280px;
   }
 }
+
 
 @media screen and (max-width: 550px) {
   .lead__blur {
