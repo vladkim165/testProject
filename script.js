@@ -206,12 +206,26 @@ pizzas.forEach(item => {
   setTemplate(item)
 })
 
+//кнопки сортировок
+
 const all = document.getElementById('all')
 const spicy = document.getElementById('spicy')
 const meat = document.getElementById('meat')
 const cheesy = document.getElementById('cheesy')
 const vegan = document.getElementById('vegan')
 
+const setEventsOnSortButton = (button, value) => {
+  button.addEventListener('click', () => {
+    list.innerHTML = '';
+    pizzas.forEach(item => {
+      if (item.type === value) {
+        setTemplate(item)
+      }
+    })
+  })
+}
+
+//добавляем обработчики кнопкам сортировки пицц
 all.addEventListener('click', () => {
   list.innerHTML = '';
   pizzas.forEach(item => {
@@ -219,38 +233,7 @@ all.addEventListener('click', () => {
   })
 })
 
-spicy.addEventListener('click', () => {
-  list.innerHTML = '';
-  pizzas.forEach(item => {
-    if (item.type === 'spicy') {
-      setTemplate(item)
-    }
-  })
-})
-
-meat.addEventListener('click', () => {
-  list.innerHTML = '';
-  pizzas.forEach(item => {
-    if (item.type === 'meat') {
-      setTemplate(item)
-    }
-  })
-})
-
-cheesy.addEventListener('click', () => {
-  list.innerHTML = '';
-  pizzas.forEach(item => {
-    if (item.type === 'cheesy') {
-      setTemplate(item)
-    }
-  })
-})
-
-vegan.addEventListener('click', () => {
-  list.innerHTML = '';
-  pizzas.forEach(item => {
-    if (item.type === 'vegan') {
-      setTemplate(item)
-    }
-  })
-})
+setEventsOnSortButton(spicy, 'spicy')
+setEventsOnSortButton(meat, 'meat')
+setEventsOnSortButton(cheesy, 'cheesy')
+setEventsOnSortButton(vegan, 'vegan')
