@@ -9,8 +9,32 @@
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  vertical-align:text-bottom;
+  vertical-align: text-bottom;
   text-transform: uppercase;
   margin-left: 44px;
   letter-spacing: 1px;
+  transition: 0.3s linear;
+}
+
+.header__lang-link:hover {
+  cursor: pointer;
+  color: #FF3C3C;
+}
+
+@media screen and (max-width: 1360px) {
+  .header__lang-link {
+    margin: 0 40px 0 70px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header__lang-link {
+    margin: 0 20px 0 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__lang-link {
+    display: none;
+  }
 }

@@ -6,6 +6,19 @@
   width: 100%;
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0;
   border: 1px solid red;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1320px) {
+  .lead {
+    padding: 0 32px 0 32px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .lead {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

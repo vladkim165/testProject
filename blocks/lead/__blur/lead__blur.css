@@ -8,3 +8,64 @@
   top: 60px;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 1600px) {
+  .lead__blur {
+    left: 120px;
+    top: 40px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .lead__blur {
+    left: 140px;
+    top: 80px;
+    width: 360px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__blur {
+    width: 240px;
+    height: 240px;
+    top: 120px;
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .lead__blur {
+    top: 80px;
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lead__blur {
+    top: 20px;
+    left: 260px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__blur {
+    left: 180px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .lead__blur {
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .lead__blur {
+    top: -10px;
+    left: 60px;
+  }
+}

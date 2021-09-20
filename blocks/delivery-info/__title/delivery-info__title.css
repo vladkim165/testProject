@@ -1,4 +1,16 @@
 .delivery-info__title {
   text-align: center;
-  margin: 72px 0 26px 0;
+  margin: 0 0 26px 0;
+}
+
+@media screen and (max-width: 834px) {
+  .delivery-info__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .delivery-info__title {
+    margin-bottom: 12px;
+  }
 }

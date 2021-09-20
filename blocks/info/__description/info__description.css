@@ -1,4 +1,11 @@
 .info__description {
   margin: 0;
   text-align: center;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1360px) {
+  .header .info__description {
+    display: none;
+  }
 }

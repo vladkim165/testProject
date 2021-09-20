@@ -4,3 +4,22 @@
   margin-right: 88px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1360px) {
+  .header__logo {
+    position: absolute;
+    right: 0px;
+    left: 32px;
+    width: 130px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__logo {
+    position: absolute;
+    left: 16px;
+    width: 85px;
+    height: 39px;
+  }
+}

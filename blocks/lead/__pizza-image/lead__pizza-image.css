@@ -1,8 +1,85 @@
 .lead__pizza-image {
   position: absolute;
-  left: 20px;
+  left: 0;
   top: 0;
   width: 630px;
   height: 600px;
   z-index: 2;
+}
+
+@media screen and (max-width: 1600px) {
+  .lead__pizza-image {
+    width: 540px;
+    height: 540px;
+    left: 20px
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .lead__pizza-image {
+    width: 450px;
+    height: 450px;
+    top: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__pizza-image {
+    width: 315px;
+    height: 300px;
+    top: 85px;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .lead__pizza-image {
+    top: 45px;
+    left: -10px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .lead__pizza-image {
+    top: -50px;
+    left: 105px;
+    width: 365px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .lead__pizza-image {
+    top: -40px;
+    left: 95px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__pizza-image {
+    left: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lead__pizza-image {
+    width: 250px;
+    height: 240px;
+    left: 60px;
+    top: -35px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .lead__pizza-image {
+    width: 200px;
+    height: 190px;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__pizza-image {
+    left: -10px;
+  }
 }

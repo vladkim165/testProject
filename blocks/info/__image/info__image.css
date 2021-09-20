@@ -3,3 +3,21 @@
   height: 40px;
   margin-right: 12px;
 }
+
+.info__order .info__image:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .info__image {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .info__image {
+    width: 20px;
+    height: 20px;
+  }
+}

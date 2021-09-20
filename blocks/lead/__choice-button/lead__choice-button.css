@@ -6,3 +6,47 @@
   border-radius: 5px;
   margin-bottom: 277px;
 }
+
+@media screen and (max-width: 1600px) {
+  .lead__choice-button {
+    margin-bottom: 227px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .lead__choice-button {
+    margin-bottom: 174px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .lead__choice-button {
+    margin-bottom: 144px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .lead__choice-button {
+    margin-bottom: 114px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lead__choice-button {
+    width: 288px;
+    height: 52px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .lead__choice-button {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .lead__choice-button {
+    width: 238px;
+    height: 42px;
+  }
+}

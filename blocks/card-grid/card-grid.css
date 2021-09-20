@@ -8,3 +8,15 @@
   margin: 110px auto 0 auto;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 834px) {
+  .card-grid {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-grid {
+    margin-top: 60px;
+  }
+}

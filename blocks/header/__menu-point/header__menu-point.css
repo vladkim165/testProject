@@ -4,8 +4,20 @@
   align-items: center;
   margin-right: 60px;
   white-space: nowrap;
+  transition: 0.3s linear;
+  cursor: pointer;
 }
 
 .header__menu-point:last-of-type {
   margin-right: 88px
+}
+
+.header__menu-point:hover {
+  color: #FF3C3C;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__menu-point {
+    display: none;
+  }
 }

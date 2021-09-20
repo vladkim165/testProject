@@ -6,11 +6,12 @@
   border: 1px solid red;
   margin: 0 120px 30px 0;
   column-gap: 32px;
+  box-sizing: border-box;
 }
 
 .list-item:nth-of-type(2) {
   flex-direction: row-reverse;
-  margin: 0 0 30px 120px;
+  margin: 0 0 30px 150px;
 }
 
 .list-item:last-of-type {
@@ -23,26 +24,26 @@
     column-gap: 41px;
   }
   .list-item:nth-of-type(2) {
-    margin: 0 0 24px 60px;
+    margin: 0 0 24px 150px;
   }
 }
 
 @media screen and (max-width: 834px) {
   .list-item {
-    margin: 0 76px 16px 32px;
+    margin: 0 76px 16px 0;
   }
   .list-item:nth-of-type(2) {
-    margin: 0 32px 16px 76px;
+    margin: 0 0 16px 130px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .list-item {
-    margin: 0 36px 16px 24px;
+    margin: 0 36px 16px 0;
     column-gap: 21px;
   }
   .list-item:nth-of-type(2) {
-    margin: 0 24px 16px 36px;
+    margin: 0 0 16px 120px;
   }
 }
 

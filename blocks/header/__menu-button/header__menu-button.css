@@ -1,0 +1,39 @@
+.header__menu-button {
+  display: none;
+  height: 40px;
+  width: 40px;
+  background-image: url(../../../images/menu.svg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1360px) {
+  .header__menu-button {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__menu-button {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header__menu-button {
+    margin-left: 30px;
+    width: 24px;
+    height: 19px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .header__menu-button {
+    margin-left: 15px;
+    width: 24px;
+    height: 19px;
+  }
+}

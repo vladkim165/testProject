@@ -1,0 +1,40 @@
+.info__amount {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin: 0;
+  position: absolute;
+  top: -4.5px;
+  left: 30px;
+  font-size: 11px;
+  line-height: 20px;
+  background: #E52D2D;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .info__amount {
+    top: -8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info__amount {
+    left: 22px;
+    top: -5px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .info__amount {
+    font-size: 10px;
+    line-height: 1.4;
+    width: 14px;
+    height: 14px;
+    left: 12px;
+    top: -6px;
+  }
+}

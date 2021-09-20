@@ -6,3 +6,15 @@
   grid-area: text;
   padding-top: 157px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__choice-container {
+    padding-top: 77px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .lead__choice-container {
+    padding-top: 4px;
+  }
+}

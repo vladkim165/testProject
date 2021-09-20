@@ -1,3 +1,15 @@
 .card-grid__title {
   margin: 0 0 55px 0;
 }
+
+@media screen and (max-width: 834px) {
+  .card-grid__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-grid__title {
+    margin-bottom: 24px;
+  }
+}
