@@ -13,3 +13,10 @@
     margin-bottom: 12px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .element__button-panel {
+    width: 164px;
+    height: 32px;
+  }
+}

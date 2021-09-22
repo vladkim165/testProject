@@ -1,0 +1,12 @@
+.element__button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+  .element__button-container {
+    align-items: flex-start;
+  }
+}

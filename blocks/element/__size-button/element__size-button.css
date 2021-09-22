@@ -8,3 +8,9 @@
   cursor: pointer;
   text-align: center;
 }
+
+@media screen and (max-width: 450px) {
+  .element__size-button {
+    width: 52px;
+  }
+}
