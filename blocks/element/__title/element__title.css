@@ -5,6 +5,7 @@
   max-width: 264px;
   margin: 20px 0 6px 0;
   letter-spacing: 0;
+  justify-self: start;
 }
 
 .element:hover .element__title {

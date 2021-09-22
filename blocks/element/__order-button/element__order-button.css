@@ -29,7 +29,7 @@
   color: #DBDBDB;
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1024px) {
   .element__order-button {
     width: 196px;
     height: 40px;

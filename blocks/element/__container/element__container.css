@@ -1,8 +1,9 @@
 .element__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: calc(100% - 200px)
 }
 
 @media screen and (max-width: 450px) {
